@@ -1,0 +1,9 @@
+[submodule "external/seacharts"]
+	path = external/seacharts
+	url = git@github.com:trymte/seacharts.git
+[submodule "external/maritime-schema"]
+	path = external/maritime-schema
+	url = git@github.com:dnv-opensource/maritime-schema.git
+[submodule "external/ship-traffic-generator"]
+	path = external/ship-traffic-generator
+	url = git@github.com:dnv-opensource/ship-traffic-generator.git
