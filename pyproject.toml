@@ -1,5 +1,5 @@
 [project]
-name = "sfi-autoship-colav-simulator"
+name = "colav_simulator"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -26,13 +26,11 @@ dependencies = [
     "torch>=1.13",
     "tqdm>=4.67.1",
     "trafficgen",
-    "seacharts",
     "gdal>=3.11.4",
 ]
 
 [tool.uv.sources]
 trafficgen = { path = "external/ship-traffic-generator" }
-seacharts = {path = "external/seacharts"}
 gdal = [
   { index = "gdal-wheels", marker = "sys_platform == 'linux'" },
   { index = "geospatial_wheels", marker = "sys_platform == 'win32'" },
